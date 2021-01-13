@@ -149,7 +149,12 @@ public class Snake {
 
             Map<String, String> response = new HashMap<>();
             response.put("move", move);
-            return response;
+            response.put("apiversion", "1");
+            response.put("author", "Sora");           // TODO: Your Battlesnake Username
+            response.put("color", "#736CCB");     // TODO: Personalize
+            response.put("head", "beluga");  // TODO: Personalize
+            response.put("tail", "curled");  // TODO: Personalize
+            return response; 
         }
 
         /**
